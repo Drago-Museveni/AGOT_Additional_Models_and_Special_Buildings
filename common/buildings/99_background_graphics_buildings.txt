@@ -9,7 +9,7 @@ red_keep_custom = {
 	}
 
 	is_enabled = {
-		barony = title:b_the_red_keep
+#		barony = title:b_the_red_keep
 		has_building = seven_gates_01
 	}
 
