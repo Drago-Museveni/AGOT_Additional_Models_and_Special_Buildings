@@ -1,6 +1,7 @@
 pdxmesh = {
 	name = "building_bloodstone_pirate_mesh"
 	file = "building_bloodstone_pirate.mesh"
+	scale = 0.4
 
 	meshsettings = {
 		name = "building_bloodstone_pirate"

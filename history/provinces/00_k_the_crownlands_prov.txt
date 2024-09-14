@@ -11,9 +11,10 @@
 	}
 	8015.1.1 = { 
 		culture = crownlander
+		special_building = the_red_keep_01 #CM Add
 	}
 
-	8026.1.1 = {
+	8030.1.1 = { #CM Add
 		buildings = { castle_02 }
 		duchy_capital_building = seven_gates_01
 	}
@@ -85,7 +86,7 @@
 		holding = city_holding
 		buildings = { city_01 }
 	}
-	8042.1.1 = {
+	8025.1.1 = { #CM Change
 		special_building = cobblers_square_01
 	}
 	8050.1.1 = {

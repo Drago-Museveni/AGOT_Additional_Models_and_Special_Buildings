@@ -1,6 +1,7 @@
 pdxmesh = {
 	name = "building_bloodstone_fort_mesh"
 	file = "building_bloodstone_fort.mesh"
+	scale = 0.4
 
 	meshsettings = {
 		name = "building_bloodstone_fort"

@@ -1,6 +1,7 @@
 pdxmesh = {
 	name = "hellgate_2_mesh"
 	file = "hellgate_2.mesh"
+	scale = 0.9
 
 	
 	
