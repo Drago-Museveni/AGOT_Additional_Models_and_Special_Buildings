@@ -1,0 +1,75 @@
+cm_pirate_to_feudal_king_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = agot_pirate_convert_whole_realm_to_feudalism_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:k_the_stepstones
+		NOT = {
+			government_has_flag = agot_government_is_pirate
+		}
+		trigger_if = {
+			limit = {
+				is_ruler = yes
+			}
+			always = yes
+		}
+		trigger_else = {
+			liege = {
+				OR = {
+					government_has_flag = government_is_lp_feudal
+					government_has_flag = government_is_feudal
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		highest_held_title_tier >= tier_kingdom
+		completely_controls_region = world_stepstones
+		prestige_level >= 2
+		any_realm_province = {
+			has_building_or_higher = pirate_den_01
+		}	
+	}
+
+	cost = {
+		prestige = 500
+	}
+
+	effect = {
+		trigger_event = agot_pirate_events.0001
+		save_scope_as = actor
+		agot_pirate_convert_whole_realm_to_feudalism_effect = yes
+		hidden_effect = {
+			every_vassal = {
+				trigger_event = {
+					id = agot_pirate_events.0002
+					days = 3
+				}
+			}
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 100
+			NOR = {
+				root.capital_county.duchy = title:d_the_sisters
+				root.capital_county.duchy = title:d_first_stepstones
+				root.capital_county.duchy = title:d_skull_tides
+				root.capital_county.duchy = title:d_the_maidens
+				root.capital_county.duchy = title:d_saans_stones
+			}
+		}
+	}
+}

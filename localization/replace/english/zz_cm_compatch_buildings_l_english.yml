@@ -43,3 +43,7 @@ cowbook.1000.a.desc: "Harrenhal is laid to waste, melted and twisted by Dragonfi
  
  bloodstone_keep_court:0 "Dragonhall Court"
 
+ cm_pirate_to_feudal_king_decision: "Convert Pirate Dens to Feudalism"
+ cm_pirate_to_feudal_king_decision_confirm: "Convert to Feudal Ways"
+ cm_pirate_to_feudal_king_decision_tooltip: "Change government type by becoming  [GetGovernment( 'lp_feudal_government' ).GetName] or [GetGovernment( 'feudal_government' ).GetName]"
+
