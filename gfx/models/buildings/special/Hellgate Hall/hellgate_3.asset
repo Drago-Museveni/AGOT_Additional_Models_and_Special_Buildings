@@ -1,7 +1,7 @@
 pdxmesh = {
 	name = "hellgate_3_mesh"
 	file = "hellgate_3.mesh"
-	scale = 0.9
+#	scale = 0.9
 	
 	
 	meshsettings = {

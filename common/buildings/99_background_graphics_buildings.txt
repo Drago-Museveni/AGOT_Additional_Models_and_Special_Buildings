@@ -41,7 +41,7 @@ walls_00 = {
 				barony = title:b_the_red_keep
 				has_building_or_higher = the_red_keep_02
 			}
-			barony = title:b_bloodstone_lair
+#			barony = title:b_bloodstone_lair
 			barony = title:b_hellgate_hall
 		}
 	}

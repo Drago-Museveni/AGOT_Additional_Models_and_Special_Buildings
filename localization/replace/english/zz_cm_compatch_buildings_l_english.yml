@@ -39,8 +39,10 @@ cowbook.1000.a.desc: "Harrenhal is laid to waste, melted and twisted by Dragonfi
  building_bloodstone_special_02:0 "Bloodstone Castle"
  building_bloodstone_special_02_desc:0 "Built by the King of the Stepstones and the Narrow Sea, this castle was constructed upon the conversion of Bloodstone's Pirate Dens into Feudal Governments."
  building_bloodstone_special_03:0 "Bloodstone Dragonhall"
- building_bloodstone_special_03_desc:0 "Originally built by Daemon Targaryen, King of the Stepstones and the Narrow Sea, the keep boasts the same Valyrian masonry techniques seen at Dragonstone.\n\nThough much smaller than Dragonkeep, Bloodstone was clearly constructed with the aid of dragon fire and many elements of the castle are clearly dragon-oriented."
- 
+ building_bloodstone_special_03_desc:0 "Originally built by Daemon Targaryen, King of the Stepstones and the Narrow Sea, the keep boasts the same Valyrian architectural stylings seen at Dragonstone, however, is not as strong due to the knowledge of Valyrian masonry being lost to time.\n\nThough much smaller than Dragonkeep, Bloodstone was clearly constructed with the aid of dragon fire and many elements of the castle are clearly dragon-oriented."
+ building_bloodstone_special_04:0 "Bloodstone Dragonhall Castle"
+ building_bloodstone_special_04_desc:0 "Originally built by Daemon Targaryen, King of the Stepstones and the Narrow Sea, the keep boasts the same Valyrian architectural stylings seen at Dragonstone, however, is not as strong due to the knowledge of Valyrian masonry being lost to time.\n\nThough much smaller than Dragonkeep, Bloodstone was clearly constructed with the aid of dragon fire and many elements of the castle are clearly dragon-oriented including the walls modeled after Dragonstone itself. \n\nThough great cost and time investment Bloodstone has become a hub of trade in the Narrow Sea between Westeros and Essos with the King of the Stepstones extracting a toll on all traffic passing through thanks to a massive port expansion."
+
  bloodstone_keep_court:0 "Dragonhall Court"
 
  cm_pirate_to_feudal_king_decision: "Convert Pirate Dens to Feudalism"
