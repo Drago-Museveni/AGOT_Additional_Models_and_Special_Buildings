@@ -701,8 +701,8 @@ agot_hightide_01 = {
 			limit = {
 				NOR = {
 					has_building = castle_05
-					has_building = castle_06
-					has_building = castle_07
+#					has_building = castle_06
+#					has_building = castle_07
 				}				
 			}		
 			add_building = castle_05
