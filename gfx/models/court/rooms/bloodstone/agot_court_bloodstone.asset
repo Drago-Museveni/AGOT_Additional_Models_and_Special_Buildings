@@ -64,9 +64,19 @@ pdxmesh = {
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
+	
+	meshsettings = {
+		name = "daemon_throne_01"
+		index = 0
+		texture_diffuse = "dragonstone_throne_diffuse.dds"
+		texture_normal = "dragonstone_throne_normal.dds"
+		texture_specular = "dragonstone_throne_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
 
 	meshsettings = {
-		name = "ds_rk_brazierShape"
+		name = "bs_rk_brazierShape"
 		index = 0
 		texture_diffuse = "RK_Pil_Brz_Rof_Dor_diffuse.dds"
 		texture_normal = "RK_Pil_Brz_Rof_Dor_normal.dds"
