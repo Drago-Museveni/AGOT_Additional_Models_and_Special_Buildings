@@ -16,7 +16,7 @@
 
 	8030.1.1 = { #CM Add
 		buildings = { castle_02 }
-		duchy_capital_building = seven_gates_01
+#		duchy_capital_building = seven_gates_01
 	}
 	8042.1.1 = {
 		buildings = { castle_05 curtain_walls_03 barracks_03 }
@@ -68,6 +68,7 @@
 ################### b_hookmarket ##################
 ######## c_kings_landing - d_kings_landing ########
 4154 = {
+	special_building_slot = seven_gates_01
 	holding = none
 	7999.4.1 = {
 		holding = city_holding
@@ -75,6 +76,9 @@
 	}
 	8025.1.1 = {
 		buildings = { city_04 common_tradeport_07 }
+	}
+	8030.1.1 = { #CM Add
+		special_building = seven_gates_01
 	}
 }
 ############### b_goldguard_heights ###############
