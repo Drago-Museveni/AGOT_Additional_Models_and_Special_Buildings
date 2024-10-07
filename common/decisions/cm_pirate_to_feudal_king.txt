@@ -10,7 +10,7 @@ cm_pirate_to_feudal_king_decision = {
 		is_landed = yes
 		has_title = title:k_the_stepstones
 		NOT = {
-			government_has_flag = agot_government_is_pirate
+			government_has_flag = government_is_pirate
 		}
 		trigger_if = {
 			limit = {
