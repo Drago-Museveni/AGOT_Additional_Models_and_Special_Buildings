@@ -7,7 +7,7 @@ audio_culture=1.000000
 camera={ {
 		description="Establishing Shot"
 		fov=49.000000
-		position={ 0.000000 165.300000 -1224.200073 }
+		position={ 0.000000 165.300003 -1224.200073 }
 		pitch=10.000000
 		yaw=0.000000
 		camera_near_far={ 70.000000 5000.000000 }
@@ -17,7 +17,7 @@ camera={ {
  {
 		description="Wall View"
 		fov=51.000000
-		position={ 609.900024 477.600000 -669.700000 }
+		position={ 609.900024 477.600006 -669.700012 }
 		pitch=24.000000
 		yaw=-35.000000
 		camera_near_far={ 70.000000 3350.000000 }
@@ -27,7 +27,7 @@ camera={ {
  {
 		description="Overhead View"
 		fov=50.000000
-		position={ -415.200012 434.399994 -869.800000 }
+		position={ -415.200012 434.399994 -869.799988 }
 		pitch=20.000000
 		yaw=28.028654
 		camera_near_far={ 70.000000 3730.000000 }
@@ -47,7 +47,7 @@ camera={ {
  {
 		description="Throne View"
 		fov=50.000000
-		position={ 549.100037 250.699997 -96.300000 }
+		position={ 549.100037 250.699997 -96.300003 }
 		pitch=10.233926
 		yaw=-51.000000
 		camera_near_far={ 70.000000 3240.000000 }
@@ -614,7 +614,7 @@ lights={ {
 	}
  }
 characters={ {
-		position={ 0.000000 320.653259 49.506424 }
+		position={ 0.000000 248.100006 146.300003 }
 		locator="Ruler"
 		description="Ruler"
 		camera="Throne View"
@@ -872,7 +872,7 @@ assets={ {
 		roles=ruler_throne
 	}
  {
-		position={ -236.000000 -24.000000 236.100006 }
+		position={ -260.200012 -24.000000 224.000000 }
 		description="Throne_Spouse"
 		asset="ep1_mediterranean_throne_basic_01_b_entity"
 		roles=spouse_throne
@@ -881,7 +881,7 @@ assets={ {
 		direction=0.000010
 		scale=40.000000
 		description="Throneroom"
-		asset="agot_court_bloodstone_entity"
+		asset="daemon_court_bloodstone_entity"
 	}
  {
 		direction=0.000010
@@ -977,91 +977,91 @@ artifacts={ {
 		locator="artifact_wall_large_1"
 		position={ 0.000000 523.200012 608.000000 }
 		rotation={ 5.000000 0.000000 0.000000 }
-		slot="wall_big_1"
+		slot=wall_big_1
 	}
  {
 		locator="artifact_wall_large_2"
 		position={ -432.899994 311.000000 609.901001 }
 		rotation={ 5.000000 -22.000000 0.000000 }
-		slot="wall_big_2"
+		slot=wall_big_2
 	}
  {
 		locator="artifact_wall_large_3"
 		position={ 432.899994 311.000000 609.901001 }
 		rotation={ 5.000000 20.000000 0.000000 }
-		slot="wall_big_3"
+		slot=wall_big_3
 	}
  {
 		locator="artifact_wall_small_1"
 		position={ -580.799988 311.000000 442.500000 }
 		rotation={ 15.000000 -31.000000 0.000000 }
-		slot="wall_small_1"
+		slot=wall_small_1
 	}
  {
 		locator="artifact_wall_small_2"
 		position={ 580.799988 311.000000 442.500000 }
 		rotation={ 15.000000 31.000000 0.000000 }
-		slot="wall_small_2"
+		slot=wall_small_2
 	}
  {
 		locator="artifact_wall_small_3"
 		position={ -1042.500000 311.600006 3.100000 }
 		rotation={ 15.000000 -66.000000 0.000000 }
-		slot="wall_small_3"
+		slot=wall_small_3
 	}
  {
 		locator="artifact_bookshelf_1"
 		position={ -65.000000 -64.400002 590.700012 }
 		direction=90.000000
-		slot="lectern_1"
+		slot=lectern_1
 	}
  {
 		locator="artifact_bookshelf_2"
 		position={ 65.000000 -64.400002 590.700012 }
 		direction=90.000000
-		slot="lectern_2"
+		slot=lectern_2
 	}
  {
 		locator="artifact_throne_1"
-		position={ 0.000000 -312.000000 194.200000 }
+		position={ 0.000000 -312.000000 194.199997 }
 		direction=0.000010
-		slot="throne"
+		slot=throne
 	}
  {
 		locator="artifact_sculpture_1"
 		position={ -736.000000 -64.400002 60.500000 }
 		direction=-56.000000
-		slot="sculpture_1"
+		slot=sculpture_1
 	}
  {
 		locator="artifact_sculpture_2"
 		position={ 736.000000 -64.400002 60.500000 }
 		direction=56.000000
-		slot="sculpture_2"
+		slot=sculpture_2
 	}
  {
 		locator="artifact_pedestal_locator_1"
 		position={ -493.600006 -64.400002 314.600006 }
 		direction=-124.000000
-		slot="pedestal_1"
+		slot=pedestal_1
 	}
  {
 		locator="artifact_pedestal_locator_2"
 		position={ 502.100006 -64.400002 314.600006 }
 		direction=-56.000000
-		slot="pedestal_2"
+		slot=pedestal_2
 	}
  {
 		locator="artifact_pedestal_locator_3"
 		position={ -425.000000 -64.400002 -665.400024 }
 		direction=155.000000
-		slot="pedestal_3"
+		slot=pedestal_3
 	}
  {
 		locator="artifact_pedestal_locator_4"
 		position={ 425.000000 -64.400002 -665.400024 }
 		direction=25.000000
-		slot="pedestal_4"
+		slot=pedestal_4
 	}
  }
 support_type={
