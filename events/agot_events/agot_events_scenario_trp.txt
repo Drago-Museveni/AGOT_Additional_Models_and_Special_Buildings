@@ -3979,8 +3979,13 @@ agot_scenario_trp.1025 = { # Daemon has been refused boon twice or stormed out
 		name = agot_scenario_trp.1025.b
 		flavor = agot_scenario_trp.1025.b.f
 		trigger = {
+			OR = {
+				AND = {
 			NOT = { exists = scope:daemon_kg_1 }
 			NOT = { exists = scope:daemon_kg_2 }
+				}
+				has_multiple_players = yes
+			}
 		}
 		if = {
 			limit = {
@@ -4004,6 +4009,8 @@ agot_scenario_trp.1025 = { # Daemon has been refused boon twice or stormed out
 		trigger = {
 			exists = scope:daemon_kg_1
 			NOT = { exists = scope:daemon_kg_2 }
+			#Broken for multiplayer
+			NOT = { has_multiple_players = yes }
 		}
 		add_internal_flag = dangerous
 		configure_start_single_combat_effect = {
@@ -4037,6 +4044,8 @@ agot_scenario_trp.1025 = { # Daemon has been refused boon twice or stormed out
 		trigger = {
 			exists = scope:daemon_kg_1
 			exists = scope:daemon_kg_2
+			#Broken for multiplayer
+			NOT = { has_multiple_players = yes }
 		}
 		add_internal_flag = dangerous
 		configure_start_single_combat_effect = {
@@ -4087,7 +4096,7 @@ agot_scenario_trp.1025 = { # Daemon has been refused boon twice or stormed out
 		flavor = agot_scenario_trp.1025.d.f
 		start_scheme = {
 			type = murder
-			target = scope:sitting_ruler
+			target_character = scope:sitting_ruler
 		}
 	}
 }
@@ -4158,7 +4167,7 @@ agot_scenario_trp.1027 = { # Daemon Duel 1 Resolver Event
 				FATALITY = always
 				FIXED = no
 				LOCALE = agot_iron_throne
-				OUTPUT_EVENT = agot_scenario_trp.1027
+				OUTPUT_EVENT = single_combat.1006
 				INVALIDATION_EVENT = single_combat.1006
 			}
 			title:e_the_iron_throne.holder = {
@@ -4189,6 +4198,14 @@ agot_scenario_trp.1028 = { # Daemon Duel 2 Resolver Event
 			title:e_the_iron_throne.holder = {
 				trigger_event = {
 					id = agot_scenario_trp.1031
+				}
+			}
+		}
+		else = {
+			title:e_the_iron_throne.holder = {
+				trigger_event = {
+					id = agot_scenario_trp.1029
+					days = 1
 				}
 			}
 		}
