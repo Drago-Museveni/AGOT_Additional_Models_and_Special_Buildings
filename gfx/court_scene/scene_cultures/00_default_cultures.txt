@@ -22,6 +22,7 @@
 			capital_county = title:c_highgarden
 			capital_county = title:c_bloodstone
 			capital_county = title:c_valyria
+			capital_county = title:c_ilvonys
 		}
 	}
 }
@@ -69,6 +70,7 @@ mediterranean = {
 			capital_county = title:c_highgarden
 			capital_county = title:c_bloodstone
 			capital_county = title:c_valyria
+			capital_county = title:c_ilvonys
 			capital_county = title:c_winterfell
 			capital_county = title:c_the_eyrie
 			capital_county = title:c_riverrun
@@ -105,6 +107,7 @@ mena = {
 			capital_county = title:c_highgarden
 			capital_county = title:c_bloodstone
 			capital_county = title:c_valyria
+			capital_county = title:c_ilvonys
 			capital_county = title:c_winterfell
 			capital_county = title:c_the_eyrie
 			capital_county = title:c_riverrun
@@ -129,6 +132,7 @@ indian = {
 			capital_county = title:c_highgarden
 			capital_county = title:c_bloodstone
 			capital_county = title:c_valyria
+			capital_county = title:c_ilvonys
 			capital_county = title:c_winterfell
 			capital_county = title:c_the_eyrie
 			capital_county = title:c_riverrun
@@ -165,6 +169,7 @@ western = {
 			capital_county = title:c_highgarden
 			capital_county = title:c_bloodstone
 			capital_county = title:c_valyria
+			capital_county = title:c_ilvonys
 			capital_county = title:c_winterfell
 			capital_county = title:c_the_eyrie
 			capital_county = title:c_riverrun
