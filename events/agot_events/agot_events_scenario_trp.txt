@@ -1590,7 +1590,7 @@ agot_scenario_trp.0202 = { # Daemon won first war
 			}
 			if = {
 				limit = { character:coadmiral_2 = { is_alive = yes } }
-				set_designated_heir = character:coadmiral_2
+				set_designated_heir_unsafe = character:coadmiral_2
 			}
 		}
 	}
@@ -2440,7 +2440,7 @@ agot_scenario_trp.1011 = { # Daemon chooses boon
 			resolve_title_and_vassal_change = scope:change
 			# Set heir
 			scope:sitting_ruler = {
-				set_designated_heir = character:Targaryen_61
+				set_designated_heir_unsafe = character:Targaryen_61
 			}
 			# If relative lost title, come home
 			scope:old_dragonstone_holder = {
@@ -2690,7 +2690,7 @@ agot_scenario_trp.1012 = { # Daemon has chosen boon, grant?
 			}
 			resolve_title_and_vassal_change = scope:change
 			# Set heir
-			set_designated_heir = character:Targaryen_61
+			set_designated_heir_unsafe = character:Targaryen_61
 			# If relative lost title, come home
 			scope:old_dragonstone_holder = {
 				if = {
@@ -4273,7 +4273,7 @@ agot_scenario_trp.1029 = { # Daemon won duels
 
 	immediate = {
 		hidden_effect = { # Either Daemon or Root is dead/unladed after this, so set up inheritance in case
-			set_designated_heir = character:Targaryen_61
+			set_designated_heir_unsafe = character:Targaryen_61
 		}
 	}
 
@@ -5121,14 +5121,7 @@ agot_scenario_trp.1037 = { # Rhae reacts
 			resolve_title_and_vassal_change = scope:change
 			# If relative lost title, come home
 			scope:old_dragonstone_holder = {
-				if = {
-					limit = {
-						is_ruler = no
-						is_close_or_extended_family_of = title:e_the_iron_throne.holder
-						NOT = { employer = title:e_the_iron_throne.holder }
-					}
-					set_employer = title:e_the_iron_throne.holder
-				}
+				set_variable = move_court_fix
 				set_relation_potential_rival = scope:male_child_born
 				add_opinion = {
 					target = title:e_the_iron_throne.holder
@@ -5171,6 +5164,31 @@ agot_scenario_trp.1037 = { # Rhae reacts
 			target_title = title:d_kings_landing
 			target_title = title:c_kings_landing
 			claimant = root
+		}
+	}
+
+	after = {
+		if = {
+			limit = {
+				has_variable = move_court_fix
+			}
+			if = {
+				limit = {
+					is_ruler = no
+					is_close_or_extended_family_of = title:e_the_iron_throne.holder
+					NOT = { employer = title:e_the_iron_throne.holder }
+				}
+				set_employer = title:e_the_iron_throne.holder
+			}
+			if = {
+				limit = {
+					is_ruler = no
+					is_close_or_extended_family_of = title:e_the_iron_throne.holder
+					location != title:e_the_iron_throne.holder.capital_province
+				}
+				set_location = title:e_the_iron_throne.holder.capital_province
+			}
+			remove_variable = move_court_fix
 		}
 	}
 }
@@ -5558,7 +5576,7 @@ agot_scenario_trp.1043 = {
 		}
 		start_scheme = {
 			type = murder
-			target = character:Royce_37
+			target_character = character:Royce_37
 		}
 		add_stress = minor_stress_gain
 	}

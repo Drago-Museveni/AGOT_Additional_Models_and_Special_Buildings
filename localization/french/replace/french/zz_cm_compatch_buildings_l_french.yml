@@ -1,0 +1,51 @@
+﻿l_french:
+building_type_old_harrenhal: "Harrenhal"
+building_old_harrenhal: "Harrenhal"
+building_type_old_harrenhal_desc: "Le château de la Maison Hoare, Harrenhal, se dresse comme un témoignage de la lignée de Harren le Noir et de ses hommes de fer sur les Terres de la Rivière. Considéré comme le plus grand château de Westeros, bien que cette affirmation soit contestée par ceux des Terres de l'Ouest, il est un symbole clair de contrôle et de la prééminence des Hoare non seulement sur leur domaine, mais également sur les terres environnantes."
+building_old_harrenhal_desc: "Le château de la Maison Hoare, Harrenhal, se dresse comme un témoignage de la lignée de Harren le Noir et de ses hommes de fer sur les Terres de la Rivière. Considéré comme le plus grand château de Westeros, bien que cette affirmation soit contestée par ceux des Terres de l'Ouest, il est un symbole clair de contrôle et de la prééminence des Hoare non seulement sur leur domaine, mais également sur les terres environnantes."
+
+building_type_seven_gates_new:0 "Les Sept Portes de Port-Réal"
+building_type_seven_gates_new_desc:0 "Construites sur ordre du Roi Aegon I par le chevalier Osmund Strong et le Grand Mestre Gawen, les murailles de Port-Réal sont dominées par sept portes massives : la Porte des Dieux, la Porte du Lion, la Porte du Fleuve, la Vieille Porte, la Porte de Fer, la Porte du Roi et la Porte du Dragon."
+building_seven_gates_new:0 "$building_type_seven_gates_new$"
+building_seven_gates_new_desc:0 "$building_type_seven_gates_new_desc$"
+
+building_type_hightide_old: "Citadelle de Marée Haute"
+building_type_hightide_old_desc: "Marée Haute est le siège du Serpent de Mer, Lord Corlys Velaryon, l’un des seigneurs les plus riches et puissants des Sept Couronnes.\n\nAyant accumulé de nombreux trésors d’Essos, Corlys fit construire Marée Haute pour remplacer le siège ancestral Velaryon, Château Lamarck, humide et exigu, et pour abriter le Trône de Bois Flotté."
+building_hightide_old: "Citadelle de Marée Haute"
+building_hightide_old_desc: "Marée Haute est le siège du Serpent de Mer, Lord Corlys Velaryon, l’un des seigneurs les plus riches et puissants des Sept Couronnes.\n\nAyant accumulé de nombreux trésors d’Essos, Corlys fit construire Marée Haute pour remplacer le siège ancestral Velaryon, Château Lamarck, humide et exigu, et pour abriter le Trône de Bois Flotté."
+
+cowbook.1000.t: "L’Imposant Harrenhal"
+cowbook.1000.desc: "Les cinq grandes tours de Harrenhal sont visibles de mes armées à des kilomètres à la ronde. S’élevant jusqu’aux cieux, il est évident pour tous que cette grande ville et sa puissante forteresse ne peuvent être prises par des hommes ou des armes de siège seulement.\n\nAlors que mes commandants rapportent le moral déclinant de mes soldats, je leur rappelle que le pouvoir de la Maison Targaryen ne vient jamais des hommes portant nos bannières.\n\nAlors que je quitte le camp de guerre, je monte à bord de Balerion et prends mon envol. Survolant la ville, je sais comment détruire ce monument à la vanité des hommes mortels."
+cowbook.1000.a: "Dracarys !"
+cowbook.1000.c: "Je ne peux pas libérer une telle mort dévastatrice"
+cowbook.1000.a.desc: "Harrenhal est réduit en cendres, fondu et tordu par le feu de dragon, une coquille brisée de ce qu’il était autrefois."
+
+building_type_hellgate_hall_01:0 "Salle de la Porte de l’Enfer"
+building_type_hellgate_hall_01_desc:0 "Siège ancestral de la Maison Dryland, c’est depuis ce château redoutable qu’ils régnèrent en tant que Rois du Soufre."
+building_hellgate_hall_01:0 "La Folie de Lucifer"
+building_hellgate_hall_01_desc:0 "De vieilles ruines brisées sont tout ce qui reste de la Salle de la Porte de l’Enfer, autrefois le plus puissant des châteaux nichés dans les dunes profondes de Dorne. La Salle de la Porte de l’Enfer et la Maison Dryland furent anéanties lors des Guerres d’unification doriennes sous Nymeria et la Maison Martell. Aujourd’hui, les ruines restent un témoignage de ceux qui osèrent défier le Soleil et la Lance, comme le dernier Roi du Soufre l’a fait."
+building_hellgate_hall_02:0 "Une Ville Restaurée"
+building_hellgate_hall_02_desc:0 "Trop longtemps, le siège ancestral du Soufre est resté silencieux.\n\nBien que les sommets au-dessus témoignent encore des horreurs infligées à ces terres par les Martell il y a longtemps, le long chemin vers la restauration de cette réalisation autrefois magnifique de l’humanité a commencé."
+building_hellgate_hall_03:0 "Grandeur et Grâce"
+building_hellgate_hall_03_desc:0 "Bien que lent, le processus de réclamation de la montagne de la Salle de la Porte de l’Enfer progresse.\n\nDominant la ville en contrebas, les pentes supérieures de la Salle de la Porte de l’Enfer abritent désormais des palais de plaisance, des temples et d’autres nécessités de la haute société.\n\nBien que construits dans les empreintes des ruines déjà sculptées dans la montagne, ces nouveaux designs s’inspirent de l’architecture rhoynarienne de Lancehélion."
+building_hellgate_hall_04:0 "La Tour Dorée"
+building_hellgate_hall_04_desc:0 "Malgré un coût terriblement élevé, vous avez achevé la restauration du sommet de la Salle de la Porte de l’Enfer.\n\nVotre nouveau donjon rivalise avec n’importe quel autre dans les terres et la Salle de la Porte de l’Enfer se dresse à nouveau fièrement au-dessus de toutes les terres de Dorne."
+
+building_type_bloodstone_special_01:0 "Donjon de Peyresang"
+building_type_bloodstone_special_01_desc:0 "Donjon de Peyresang"
+building_bloodstone_special_01:0 "Donjon de Peyresang"
+building_bloodstone_special_01_desc:0 "Peyresang, la plus grande des Îles de Pierre, a toujours été un refuge pour les pirates et corsaires naviguant dans ces eaux. Un donjon a été construit pour défendre les Seigneurs Pirates."
+building_bloodstone_special_02:0 "Château de Peyresang"
+building_bloodstone_special_02_desc:0 "Construit par le Roi des Îles de Pierre et de la Mer Étroite, ce château a été érigé suite à la conversion des repaires de pirates de Bloodstone en gouvernements féodaux."
+building_bloodstone_special_03:0 "Dragonhall de Peyresang"
+building_bloodstone_special_03_desc:0 "Initialement construit par Daemon Targaryen, Roi des Îles de Pierre et de la Mer Étroite, ce donjon arbore le même style architectural valyrien que celui vu à Peyredragon, bien que moins robuste en raison de la perte des connaissances en maçonnerie valyrienne au fil du temps.\n\nBien que beaucoup plus petit que Peyredragon, Peyresang a été manifestement construit à l’aide du feu de dragon et de nombreux éléments du château sont clairement orientés vers les dragons."
+building_bloodstone_special_04:0 "Château Dragonhall de Peyresang"
+building_bloodstone_special_04_desc:0 "Initialement construit par Daemon Targaryen, Roi des Îles de Pierre et de la Mer Étroite, ce donjon arbore le même style architectural valyrien que celui vu à Peyredragon, bien que moins robuste en raison de la perte des connaissances en maçonnerie valyrienne au fil du temps.\n\nBien que beaucoup plus petit que Peyredragon, Peyresang a été manifestement construit à l’aide du feu de dragon et de nombreux éléments du château sont clairement orientés vers les dragons, y compris les murs inspirés de Peyredragon.\n\nMalgré un grand coût et un investissement considérable, Peyresang est devenu un centre de commerce dans la Mer Étroite entre Westeros et Essos, le Roi des Îles de Pierre prélevant un péage sur tout le trafic grâce à une expansion massive du port."
+
+bloodstone_keep_court:0 "Cour du Dragonhall"
+
+cm_pirate_to_feudal_king_decision: "Convertir les Repaires de Pirates en Féodalisme"
+cm_pirate_to_feudal_king_decision_confirm: "Adopter les Voies Féodales"
+cm_pirate_to_feudal_king_decision_tooltip: "Changez le type de gouvernement en devenant [GetGovernment('lp_feudal_government').GetName] ou [GetGovernment('feudal_government').GetName]"
+
+
