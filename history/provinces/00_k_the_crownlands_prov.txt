@@ -13,8 +13,7 @@
 		culture = crownlander
 		special_building = the_red_keep_01 #CM Add
 	}
-
-	8030.1.1 = { #CM Add
+	8026.1.1 = {
 		buildings = { castle_02 }
 #		duchy_capital_building = seven_gates_01
 	}
@@ -40,7 +39,7 @@
 	holding = city_holding
 	7998.1.1 = {
 #		special_building_slot = cowbm_dragonpit_01
-		buildings = { city_03 guild_halls_03 }
+		buildings = { city_03 }
 	}
 	8010.1.1 = {
 		special_building = dragonpit_01
@@ -75,7 +74,7 @@
 		buildings = { city_01 }
 	}
 	8025.1.1 = {
-		buildings = { city_04 common_tradeport_07 }
+		buildings = { city_04 }
 	}
 	8030.1.1 = { #CM Add
 		special_building = seven_gates_01
@@ -495,7 +494,7 @@
 4201 = {
 	holding = city_holding
 	7824.1.1 = {
-		buildings = { city_02 common_tradeport_01 }
+		buildings = { city_02 }
 	}
 }
 ################### b_strongmead ##################
@@ -714,7 +713,7 @@
 4225 = {
 	holding = city_holding
 	7824.1.1 = {
-		buildings = { city_01 common_tradeport_01 }
+		buildings = { city_01 }
 	}
 }
 ################## b_fieldmaiden ##################
@@ -867,7 +866,7 @@
 4242 = {
 	holding = city_holding
 	7824.1.1 = {
-		buildings = { city_03 guild_halls_05 }
+		buildings = { city_03 }
 	}
 }
 #################### b_highley ####################
