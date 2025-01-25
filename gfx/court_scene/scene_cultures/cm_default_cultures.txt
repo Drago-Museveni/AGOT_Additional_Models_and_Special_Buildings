@@ -20,3 +20,10 @@ bloodstone = {
 #		title:c_valyria = { has_county_modifier = bloodstone_keep_court }
 #	}
 #}
+
+byzantine = {
+	trigger = {
+		has_ep3_dlc_trigger = yes
+		capital_county = title:c_old_volantis
+	}
+}
