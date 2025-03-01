@@ -337,7 +337,7 @@ holy_site_great_sept_01 = {
 
 	is_enabled = {
 		custom_description = {
-			text = holy_site_muslim_christian_or_holy_site_trigger
+			text = agot_holy_site_fallback_trigger
 			OR = {
 				scope:holder = {
 					religion = religion:faith_of_the_seven_religion
@@ -416,7 +416,7 @@ generic_great_sept_01 = {
 
 	is_enabled = {
 		custom_description = {
-			text = holy_site_muslim_christian_or_holy_site_trigger
+			text = agot_holy_site_fallback_trigger
 			OR = {
 				scope:holder = {
 					religion = religion:faith_of_the_seven_religion
@@ -559,6 +559,8 @@ dragonpit_02 = {
 			trigger_event = agot_dragon_pits.0001
 		}
 	}
+
+	effect_desc = building_dragonpit_effect
 
 	cost_gold = 3000
 
