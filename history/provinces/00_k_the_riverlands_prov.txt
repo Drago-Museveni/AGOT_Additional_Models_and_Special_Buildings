@@ -1705,7 +1705,7 @@
 	holding = castle_holding
 	special_building = agot_inn_at_the_crossroads_01
 	7824.1.1 = {
-		buildings = { castle_01 }
+		buildings = { city_03 }
 	}
 }
 ################# b_clanking_tower ################
@@ -2107,7 +2107,8 @@
 1934 = {
 	culture = riverlander
 	religion = the_seven_main
-	holding = castle_holding
+	holding = castle_holding # Removed before 7960 in title history
+	special_building_slot = old_harrenhal
 	7998.1.1 = {
 		special_building = old_harrenhal
 		buildings = { 
