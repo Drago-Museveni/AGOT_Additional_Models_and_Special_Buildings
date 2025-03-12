@@ -2107,10 +2107,15 @@
 1934 = {
 	culture = riverlander
 	religion = the_seven_main
-	holding = castle_holding # Removed before 7960 in title history
+	holding = none # Removed before 7960 in title history
 	special_building_slot = old_harrenhal
+	7899.7.22 = {
+		holding = none
+		special_building_slot = old_harrenhal
+	}
 	7998.1.1 = {
 		special_building = old_harrenhal
+		holding = castle_holding
 		buildings = { 
 			castle_05
 			curtain_walls_08

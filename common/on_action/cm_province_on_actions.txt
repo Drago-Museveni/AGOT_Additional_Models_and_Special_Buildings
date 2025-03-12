@@ -27,6 +27,7 @@
 on_game_start = {
 	on_actions = {
 		set_kl_conquest
+		set_old_harrenhal
 		set_special_buildings
 	}
 }
@@ -40,6 +41,19 @@ set_kl_conquest = {
 			}
 			title:b_the_red_keep.title_province = {
 				add_building = castle_01
+			}
+		}
+	}
+}
+set_old_harrenhal = {
+	effect = {
+		if = {
+			limit = {
+				game_start_date > 7899.1.1
+				game_start_date < 7900.1.1
+			}
+			title:b_harrenhal.title_province = {
+				add_special_building_slot = old_harrenhal
 			}
 		}
 	}
