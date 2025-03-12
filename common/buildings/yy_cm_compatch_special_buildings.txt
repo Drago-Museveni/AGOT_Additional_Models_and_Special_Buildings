@@ -23,6 +23,10 @@
 		building_requirement_tribal = no
 	}
 
+	can_construct_showing_failures_only = {
+		has_building_or_higher = castle_05	
+	}
+
 	cost_gold = 3000
 
 	character_modifier = {
