@@ -27,7 +27,6 @@
 on_game_start = {
 	on_actions = {
 		set_kl_conquest
-		set_old_harrenhal
 		set_special_buildings
 	}
 }
@@ -45,19 +44,7 @@ set_kl_conquest = {
 		}
 	}
 }
-set_old_harrenhal = {
-	effect = {
-		if = {
-			limit = {
-				game_start_date > 7899.1.1
-				game_start_date < 7900.1.1
-			}
-			title:b_harrenhal.title_province = {
-				add_special_building_slot = old_harrenhal
-			}
-		}
-	}
-}
+
 set_special_buildings = {
 	effect = {
 
@@ -67,12 +54,13 @@ set_special_buildings = {
 			add_special_building = hellgate_hall_01
 		}
 
-		title:b_bloodstone_lair.title_province = {
-			remove_building = agot_racallios_fort_01
-			add_special_building_slot = bloodstone_special_01
-			add_special_building = bloodstone_special_01
-		}
+		#title:b_bloodstone_lair.title_province = {
+		#	remove_building = agot_racallios_fort_01
+		#	add_special_building_slot = bloodstone_special_01
+		#	add_special_building = bloodstone_special_01
+		#}
 	}
+}
 }
 
 
